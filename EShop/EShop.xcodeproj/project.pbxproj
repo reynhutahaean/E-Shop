@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64020FA0C2DAC1696042D50B /* Pods_EShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341764CAF92B84917641047C /* Pods_EShop.framework */; };
+		8AF878EC655AB86C2677D50D /* Pods_EShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FD4ABEE60623E5DED95A8 /* Pods_EShopTests.framework */; };
 		BE008E342A4D39D400F7883B /* EShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E332A4D39D400F7883B /* EShopApp.swift */; };
 		BE008E362A4D39D400F7883B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E352A4D39D400F7883B /* ContentView.swift */; };
 		BE008E382A4D39D700F7883B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE008E372A4D39D700F7883B /* Assets.xcassets */; };
 		BE008E3B2A4D39D700F7883B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE008E3A2A4D39D700F7883B /* Preview Assets.xcassets */; };
+		BE008E432A4D3C8100F7883B /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E422A4D3C8100F7883B /* URL+Extension.swift */; };
+		BE008E462A4D3D3100F7883B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E452A4D3D3100F7883B /* Category.swift */; };
+		BE008E492A4D3D7A00F7883B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E482A4D3D7A00F7883B /* APIManager.swift */; };
+		BE008E4D2A4D3F5600F7883B /* RequestObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E4C2A4D3F5600F7883B /* RequestObjectModel.swift */; };
+		BE008E4F2A4D455F00F7883B /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E4E2A4D455E00F7883B /* APIController.swift */; };
+		BE008E5A2A4D4ACB00F7883B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E592A4D4ACB00F7883B /* CategoryView.swift */; };
+		BE008E5C2A4D4FAC00F7883B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E5B2A4D4FAC00F7883B /* Product.swift */; };
+		BE008E5E2A4D514100F7883B /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E5D2A4D514100F7883B /* ShopModel.swift */; };
+		BE008E602A4D529300F7883B /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E5F2A4D529300F7883B /* ProductsView.swift */; };
+		BE008E632A4D72B900F7883B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E622A4D72B900F7883B /* SearchBar.swift */; };
+		BE008E652A4D759C00F7883B /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E642A4D759C00F7883B /* ProductCellView.swift */; };
+		BE008E672A4D7EBA00F7883B /* SavedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E662A4D7EBA00F7883B /* SavedProductView.swift */; };
+		BE008E6A2A4D808B00F7883B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E692A4D808B00F7883B /* DataManager.swift */; };
+		BE008E742A4D88E500F7883B /* EShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E732A4D88E500F7883B /* EShopTests.swift */; };
+		BE008E7A2A4D890D00F7883B /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E592A4D4ACB00F7883B /* CategoryView.swift */; };
+		BE008E7B2A4D891100F7883B /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E5F2A4D529300F7883B /* ProductsView.swift */; };
+		BE008E7C2A4D891300F7883B /* SavedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E662A4D7EBA00F7883B /* SavedProductView.swift */; };
+		BE008E7D2A4D891700F7883B /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E5D2A4D514100F7883B /* ShopModel.swift */; };
+		BE008E7F2A4D8D1600F7883B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E452A4D3D3100F7883B /* Category.swift */; };
+		BE008E802A4D8DA600F7883B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E5B2A4D4FAC00F7883B /* Product.swift */; };
+		BE008E822A4D8DC300F7883B /* RequestObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E4C2A4D3F5600F7883B /* RequestObjectModel.swift */; };
+		BE008E852A4D8ED800F7883B /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E422A4D3C8100F7883B /* URL+Extension.swift */; };
+		BE008E862A4D8F6C00F7883B /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E4E2A4D455E00F7883B /* APIController.swift */; };
+		BE008E872A4D8F7100F7883B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E482A4D3D7A00F7883B /* APIManager.swift */; };
+		BE008E882A4D8F7B00F7883B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E692A4D808B00F7883B /* DataManager.swift */; };
+		BE008E892A4D8F9200F7883B /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E642A4D759C00F7883B /* ProductCellView.swift */; };
+		BE008E8A2A4D8F9D00F7883B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE008E622A4D72B900F7883B /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BE008E752A4D88E500F7883B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE008E282A4D39D400F7883B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE008E2F2A4D39D400F7883B;
+			remoteInfo = EShop;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		046593BB5724A9DA3505E486 /* Pods-EShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShop.debug.xcconfig"; path = "Target Support Files/Pods-EShop/Pods-EShop.debug.xcconfig"; sourceTree = "<group>"; };
+		341764CAF92B84917641047C /* Pods_EShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976E02EA78EABBC539D6877D /* Pods-EShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShop.release.xcconfig"; path = "Target Support Files/Pods-EShop/Pods-EShop.release.xcconfig"; sourceTree = "<group>"; };
+		9E1EBF0B7D20A6CAD9164310 /* Pods-EShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShopTests.release.xcconfig"; path = "Target Support Files/Pods-EShopTests/Pods-EShopTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE008E302A4D39D400F7883B /* EShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE008E332A4D39D400F7883B /* EShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShopApp.swift; sourceTree = "<group>"; };
 		BE008E352A4D39D400F7883B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE008E372A4D39D700F7883B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE008E3A2A4D39D700F7883B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE008E422A4D3C8100F7883B /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		BE008E452A4D3D3100F7883B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BE008E482A4D3D7A00F7883B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BE008E4C2A4D3F5600F7883B /* RequestObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestObjectModel.swift; sourceTree = "<group>"; };
+		BE008E4E2A4D455E00F7883B /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		BE008E592A4D4ACB00F7883B /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		BE008E5B2A4D4FAC00F7883B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BE008E5D2A4D514100F7883B /* ShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		BE008E5F2A4D529300F7883B /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		BE008E622A4D72B900F7883B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		BE008E642A4D759C00F7883B /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		BE008E662A4D7EBA00F7883B /* SavedProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedProductView.swift; sourceTree = "<group>"; };
+		BE008E692A4D808B00F7883B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BE008E712A4D88E500F7883B /* EShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE008E732A4D88E500F7883B /* EShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EShopTests.swift; sourceTree = "<group>"; };
+		C06FD4ABEE60623E5DED95A8 /* Pods_EShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1402D5C2A87597B23F7D34F /* Pods-EShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShopTests.debug.xcconfig"; path = "Target Support Files/Pods-EShopTests/Pods-EShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +86,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64020FA0C2DAC1696042D50B /* Pods_EShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE008E6E2A4D88E500F7883B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF878EC655AB86C2677D50D /* Pods_EShopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20DB5CEB4531DFA6A7AED5FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341764CAF92B84917641047C /* Pods_EShop.framework */,
+				C06FD4ABEE60623E5DED95A8 /* Pods_EShopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C7100C3BCC33794856E486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				046593BB5724A9DA3505E486 /* Pods-EShop.debug.xcconfig */,
+				976E02EA78EABBC539D6877D /* Pods-EShop.release.xcconfig */,
+				E1402D5C2A87597B23F7D34F /* Pods-EShopTests.debug.xcconfig */,
+				9E1EBF0B7D20A6CAD9164310 /* Pods-EShopTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BE008E272A4D39D400F7883B = {
 			isa = PBXGroup;
 			children = (
 				BE008E322A4D39D400F7883B /* EShop */,
+				BE008E722A4D88E500F7883B /* EShopTests */,
 				BE008E312A4D39D400F7883B /* Products */,
+				70C7100C3BCC33794856E486 /* Pods */,
+				20DB5CEB4531DFA6A7AED5FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				BE008E302A4D39D400F7883B /* EShop.app */,
+				BE008E712A4D88E500F7883B /* EShopTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +145,11 @@
 			isa = PBXGroup;
 			children = (
 				BE008E332A4D39D400F7883B /* EShopApp.swift */,
+				BE008E412A4D3C5B00F7883B /* Extension */,
+				BE008E472A4D3D6E00F7883B /* Network */,
+				BE008E682A4D805800F7883B /* Manager */,
+				BE008E442A4D3D2100F7883B /* Model */,
+				BE008E562A4D4AAE00F7883B /* View */,
 				BE008E352A4D39D400F7883B /* ContentView.swift */,
 				BE008E372A4D39D700F7883B /* Assets.xcassets */,
 				BE008E392A4D39D700F7883B /* Preview Content */,
@@ -67,6 +165,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BE008E412A4D3C5B00F7883B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E422A4D3C8100F7883B /* URL+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BE008E442A4D3D2100F7883B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E5B2A4D4FAC00F7883B /* Product.swift */,
+				BE008E452A4D3D3100F7883B /* Category.swift */,
+				BE008E4C2A4D3F5600F7883B /* RequestObjectModel.swift */,
+				BE008E5D2A4D514100F7883B /* ShopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE008E472A4D3D6E00F7883B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E482A4D3D7A00F7883B /* APIManager.swift */,
+				BE008E4E2A4D455E00F7883B /* APIController.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BE008E562A4D4AAE00F7883B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E612A4D72A100F7883B /* Component */,
+				BE008E592A4D4ACB00F7883B /* CategoryView.swift */,
+				BE008E5F2A4D529300F7883B /* ProductsView.swift */,
+				BE008E662A4D7EBA00F7883B /* SavedProductView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE008E612A4D72A100F7883B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E622A4D72B900F7883B /* SearchBar.swift */,
+				BE008E642A4D759C00F7883B /* ProductCellView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		BE008E682A4D805800F7883B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E692A4D808B00F7883B /* DataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BE008E722A4D88E500F7883B /* EShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE008E732A4D88E500F7883B /* EShopTests.swift */,
+			);
+			path = EShopTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE008E3E2A4D39D700F7883B /* Build configuration list for PBXNativeTarget "EShop" */;
 			buildPhases = (
+				99DC3CFBEE56EB78D06EECCE /* [CP] Check Pods Manifest.lock */,
 				BE008E2C2A4D39D400F7883B /* Sources */,
 				BE008E2D2A4D39D400F7883B /* Frameworks */,
 				BE008E2E2A4D39D400F7883B /* Resources */,
+				C62CD1B616C1F570F407A9D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +250,25 @@
 			productName = EShop;
 			productReference = BE008E302A4D39D400F7883B /* EShop.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BE008E702A4D88E500F7883B /* EShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE008E772A4D88E500F7883B /* Build configuration list for PBXNativeTarget "EShopTests" */;
+			buildPhases = (
+				65CE802C2623582428DD1AA3 /* [CP] Check Pods Manifest.lock */,
+				BE008E6D2A4D88E500F7883B /* Sources */,
+				BE008E6E2A4D88E500F7883B /* Frameworks */,
+				BE008E6F2A4D88E500F7883B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE008E762A4D88E500F7883B /* PBXTargetDependency */,
+			);
+			name = EShopTests;
+			productName = EShopTests;
+			productReference = BE008E712A4D88E500F7883B /* EShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +282,10 @@
 				TargetAttributes = {
 					BE008E2F2A4D39D400F7883B = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					BE008E702A4D88E500F7883B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BE008E2F2A4D39D400F7883B;
 					};
 				};
 			};
@@ -116,6 +303,7 @@
 			projectRoot = "";
 			targets = (
 				BE008E2F2A4D39D400F7883B /* EShop */,
+				BE008E702A4D88E500F7883B /* EShopTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,19 +318,132 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE008E6F2A4D88E500F7883B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65CE802C2623582428DD1AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DC3CFBEE56EB78D06EECCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62CD1B616C1F570F407A9D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EShop/Pods-EShop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EShop/Pods-EShop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EShop/Pods-EShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE008E2C2A4D39D400F7883B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE008E4F2A4D455F00F7883B /* APIController.swift in Sources */,
+				BE008E6A2A4D808B00F7883B /* DataManager.swift in Sources */,
 				BE008E362A4D39D400F7883B /* ContentView.swift in Sources */,
 				BE008E342A4D39D400F7883B /* EShopApp.swift in Sources */,
+				BE008E4D2A4D3F5600F7883B /* RequestObjectModel.swift in Sources */,
+				BE008E492A4D3D7A00F7883B /* APIManager.swift in Sources */,
+				BE008E632A4D72B900F7883B /* SearchBar.swift in Sources */,
+				BE008E672A4D7EBA00F7883B /* SavedProductView.swift in Sources */,
+				BE008E432A4D3C8100F7883B /* URL+Extension.swift in Sources */,
+				BE008E652A4D759C00F7883B /* ProductCellView.swift in Sources */,
+				BE008E602A4D529300F7883B /* ProductsView.swift in Sources */,
+				BE008E5E2A4D514100F7883B /* ShopModel.swift in Sources */,
+				BE008E462A4D3D3100F7883B /* Category.swift in Sources */,
+				BE008E5C2A4D4FAC00F7883B /* Product.swift in Sources */,
+				BE008E5A2A4D4ACB00F7883B /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE008E6D2A4D88E500F7883B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE008E872A4D8F7100F7883B /* APIManager.swift in Sources */,
+				BE008E882A4D8F7B00F7883B /* DataManager.swift in Sources */,
+				BE008E862A4D8F6C00F7883B /* APIController.swift in Sources */,
+				BE008E822A4D8DC300F7883B /* RequestObjectModel.swift in Sources */,
+				BE008E7C2A4D891300F7883B /* SavedProductView.swift in Sources */,
+				BE008E802A4D8DA600F7883B /* Product.swift in Sources */,
+				BE008E852A4D8ED800F7883B /* URL+Extension.swift in Sources */,
+				BE008E8A2A4D8F9D00F7883B /* SearchBar.swift in Sources */,
+				BE008E892A4D8F9200F7883B /* ProductCellView.swift in Sources */,
+				BE008E7A2A4D890D00F7883B /* CategoryView.swift in Sources */,
+				BE008E742A4D88E500F7883B /* EShopTests.swift in Sources */,
+				BE008E7D2A4D891700F7883B /* ShopModel.swift in Sources */,
+				BE008E7B2A4D891100F7883B /* ProductsView.swift in Sources */,
+				BE008E7F2A4D8D1600F7883B /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE008E762A4D88E500F7883B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE008E2F2A4D39D400F7883B /* EShop */;
+			targetProxy = BE008E752A4D88E500F7883B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BE008E3C2A4D39D700F7883B /* Debug */ = {
@@ -261,6 +562,7 @@
 		};
 		BE008E3F2A4D39D700F7883B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046593BB5724A9DA3505E486 /* Pods-EShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +577,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +593,7 @@
 		};
 		BE008E402A4D39D700F7883B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976E02EA78EABBC539D6877D /* Pods-EShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +608,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +619,44 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE008E782A4D88E500F7883B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1402D5C2A87597B23F7D34F /* Pods-EShopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8XSYAW96H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rch.EShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EShop";
+			};
+			name = Debug;
+		};
+		BE008E792A4D88E500F7883B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1EBF0B7D20A6CAD9164310 /* Pods-EShopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8XSYAW96H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rch.EShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EShop";
 			};
 			name = Release;
 		};
@@ -334,6 +677,15 @@
 			buildConfigurations = (
 				BE008E3F2A4D39D700F7883B /* Debug */,
 				BE008E402A4D39D700F7883B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE008E772A4D88E500F7883B /* Build configuration list for PBXNativeTarget "EShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE008E782A4D88E500F7883B /* Debug */,
+				BE008E792A4D88E500F7883B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

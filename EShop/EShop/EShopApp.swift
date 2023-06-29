@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct EShopApp: App {
+    
+    @StateObject private var shopModel = ShopModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoryView().environmentObject(shopModel)
         }
     }
 }
